@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Outputs
+fig_out/
+*.png
+*.tiff
+
+# OS/IDE
+.DS_Store
+Thumbs.db
