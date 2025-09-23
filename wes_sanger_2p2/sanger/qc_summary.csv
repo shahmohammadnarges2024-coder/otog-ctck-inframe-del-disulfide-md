@@ -1,0 +1,6 @@
+sample_id,individual_id,relation,filename_ab1,read_direction,qv_min_at_variant,pass_fail,comment
+S01,II-1,proband,66940 Proband-OTOG-EX55-F.ab1,F,≥20,Pass,clear homozygous deletion
+S02,II-2,affected_sib,66941 Affected-OTOG-E55F.ab1,F,≥20,Pass,homozygous deletion
+S03,II-3,affected_sib,66942 Affected-OTOG-E55F.ab1,F,≥20,Pass,homozygous deletion
+S04,I-2,mother,66943 Mother-OTOG-E55-F.ab1,F,≥20,Pass,heterozygous shift pattern
+S05,I-1,father,66944 Father-OTOG-E55-F.ab1,F,≥20,Pass,heterozygous shift pattern
