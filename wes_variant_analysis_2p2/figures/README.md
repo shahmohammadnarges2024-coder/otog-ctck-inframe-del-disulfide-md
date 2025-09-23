@@ -1,0 +1,1 @@
+Place IGV snapshot (PNG, 300 dpi). Avoid any identifiable metadata.

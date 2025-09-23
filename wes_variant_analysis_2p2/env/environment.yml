@@ -1,0 +1,17 @@
+
+name: wes-sanger
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.10
+  - fastqc
+  - multiqc
+  - fastp
+  - bwa-mem2
+  - samtools
+  - bcftools
+  - gatk4
+  - picard
+  - openjdk
+  - htslib
+  - igvtools
+  - ensembl-vep=115
