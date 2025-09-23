@@ -1,8 +1,0 @@
-results/*
-*.vcf.gz*
-*.bam*
-*.cram*
-*.fastq.gz*
-*.html
-*.json
-.DS_Store

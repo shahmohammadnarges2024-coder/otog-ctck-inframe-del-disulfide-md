@@ -1,1 +1,0 @@
-- Alignment to GRCh38; forward trace as primary.
