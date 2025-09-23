@@ -1,5 +1,5 @@
 
-# Sanger Validation (Section 2.3 — Confirmation & Segregation)
+# Sanger Validation (Section 2.2 — Confirmation & Segregation)
 
 Contains primers, concise PCR/sequencing notes, and the minimal supplementary table.
 
