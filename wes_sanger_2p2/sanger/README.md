@@ -1,7 +1,10 @@
+## Repository pointers
 
-# Sanger Validation (Section 2.2 — Confirmation & Segregation)
+- Raw chromatograms (.ab1): `sanger/sequencing/`
+- Sample manifest (who is who): `sanger/sequencing/manifest.csv`
+- Primer specifications: `sanger/primer_info.csv`
+- PCR & sequencing protocol: `sanger/pcr_sequencing_protocol.md`
+- QC summary: `sanger/analysis/qc_summary.csv`
 
-Contains primers, concise PCR/sequencing notes, and the minimal supplementary table.
+These files document validation and segregation of the OTOG exon 55 deletion (NM_001292063.2; GRCh38). Representative electropherograms are provided as Fig. S2 (to be added).
 
-- Put your Sanger collage (PNG, 300 dpi) in `sequencing/`.
-- `supplementary/S4_sanger_MIN_Combined.xlsx` is the one-sheet table for the paper.
