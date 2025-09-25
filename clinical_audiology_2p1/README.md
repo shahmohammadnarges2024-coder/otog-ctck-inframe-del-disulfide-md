@@ -1,50 +1,47 @@
-\# Audiogram Plotting Scripts
+# Audiogram Figures and Supplementary Data
 
+This repository contains the code and final figures for the audiological and genetic analysis of a consanguineous family with non-syndromic hearing loss.
 
+## Contents
 
-Python scripts to redraw publication-quality pure-tone audiograms for the Human Genomics manuscript.
+- **audiogram_figures.py**  
+  Python script to generate publication-quality audiograms (single, paired, and composite).
 
+- **pedigree.png**  
+  Pedigree image used for the composite figure with the proband.
 
+- **Supplementary_Table_PTA.xlsx**  
+  Supplementary table containing pure-tone averages (0.5–4 kHz) for each ear.
 
-\## Requirements
+- **figures/**  
+  Final figures used in the manuscript:
+  - `Figure_proband_with_pedigree_1x2_withLetters.png`  
+    Composite figure: (a) pedigree + (b) proband (II-1).
+  - `audiogram_II-1_variantB_titleNumber.png`  
+    Single audiogram for proband (II-1).
+  - `audiogram_II-2_variantB_titleNumber.png`  
+    Single audiogram for sibling II-2.
+  - `audiogram_II-3_variantB_titleNumber.png`  
+    Single audiogram for sibling II-3.
+  - `audiograms_siblings_II2_II3_variantB_titleNumber.png`  
+    Two-panel audiograms for siblings II-2 and II-3.
 
-\- Python ≥ 3.11
+## Notes
+- **Main Figure (Figure 1):** Pedigree + Proband audiogram.  
+- **Supplementary Figure (Figure S1):** Sibling audiograms (II-2 & II-3).  
+- **Supplementary Table (Table S1):** PTA values.  
 
-\- See `requirements.txt` (matplotlib 3.10.6, numpy ≥ 1.24)
+All figures are exported in high resolution (PNG for GitHub preview; TIFF/PDF available for journal submission).
 
+## Reproducibility
+- Exact package versions are pinned in `requirements.txt`.  
+- Script header records Python and dependency versions.  
+- Please cite the associated article if you use this code.  
 
+## Contact
+Narges Shahmohammad – n.shahmohammad@qums.ac.ir  
 
-\## Quick start (Windows / PowerShell)
-
-1\) `python -m venv .venv`
-
-2\) `.\\.venv\\Scripts\\Activate`
-
-3\) `python -m pip install -r requirements.txt`
-
-4\) `python .\\audiogram\_plotter.py`
-
-
-
-Outputs appear in `fig\_out/`. If `pedigree.png` exists beside the script, a 2×2 composite figure is also created.
-
-
-
-\## Reproducibility
-
-\- Exact package versions pinned in `requirements.txt`.
-
-\- Script header records Python and dependency versions.
-
-\- Please cite the associated article if you use this code.
-
-
-
-\## Contact
-
-Narges Shahmohammad — n.shahmohammad@qums.ac.ir
-
-Cellular and Molecular Research Center, QUMS, Qazvin, Iran
-
-
+Cellular and Molecular Research Center,  
+Research Institute for Prevention of Non-Communicable Diseases,  
+Qazvin University of Medical Sciences (QUMS), Qazvin, Iran
 
